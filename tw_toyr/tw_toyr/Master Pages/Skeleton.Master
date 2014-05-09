@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Skeleton.master.cs" Inherits="tw_toyr.Master_Pages.Skeleton" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../Visual/Styles/MasterPageStyle.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Main">
+            <div id="Header">
+                <img src="../Visual/Images/toyr_logo.jpg" />
+            </div>
+            <div id="Account">
+                <div id="Login">
+                    <img src="../Visual/Images/Login_image.jpg" />
+                </div>
+                <div id="Register">
+                    <img src="../Visual/Images/Register_image.jpg" />
+                </div>
+            </div>
+            <div id="Menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
